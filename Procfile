@@ -1,1 +1,1 @@
-web: python president/server.py
+web: python president/server.py ${PORT}
