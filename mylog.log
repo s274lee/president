@@ -1,38 +1,3 @@
-2015-02-16T00:50:51.273125+00:00 heroku[router]: at=info method=GET path="/sharon" host=prezzy.herokuapp.com request_id=210496fc-52a1-4c24-aec2-29a22b62f582 fwd="70.25.6.99" dyno=web.1 connect=1ms service=3ms status=404 bytes=380
-2015-02-16T00:50:51.276943+00:00 app[web.1]: 10.127.161.56 - - [16/Feb/2015 00:50:51] "GET /sharon HTTP/1.1" 404 -
-2015-02-16T00:50:53.326521+00:00 heroku[router]: at=info method=GET path="/sharon" host=prezzy.herokuapp.com request_id=8fc588ac-7d8a-4002-9c45-7283e4fb7e3e fwd="70.25.6.99" dyno=web.1 connect=1ms service=9ms status=404 bytes=380
-2015-02-16T00:50:53.325966+00:00 app[web.1]: 10.127.161.56 - - [16/Feb/2015 00:50:53] "GET /sharon HTTP/1.1" 404 -
-2015-02-16T00:51:18.046242+00:00 heroku[router]: at=info method=GET path="/sharon" host=prezzy.herokuapp.com request_id=b3d91474-1d22-40d5-a6c3-593819e8ebf0 fwd="70.25.6.99" dyno=web.1 connect=1ms service=2ms status=404 bytes=380
-2015-02-16T00:51:18.050590+00:00 app[web.1]: 10.127.161.56 - - [16/Feb/2015 00:51:18] "GET /sharon HTTP/1.1" 404 -
-2015-02-16T00:51:19.832995+00:00 heroku[router]: at=info method=GET path="/sharon" host=prezzy.herokuapp.com request_id=3d96cee5-f62e-4bed-a739-d3e26324126b fwd="70.25.6.99" dyno=web.1 connect=2ms service=6ms status=404 bytes=380
-2015-02-16T00:51:19.836979+00:00 app[web.1]: 10.127.161.56 - - [16/Feb/2015 00:51:19] "GET /sharon HTTP/1.1" 404 -
-2015-02-16T00:51:22.120667+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=93f74606-b513-4e57-95e3-e6ad0bf66cb3 fwd="70.25.6.99" dyno=web.1 connect=6ms service=4ms status=200 bytes=166
-2015-02-16T00:51:22.119697+00:00 app[web.1]: 10.127.161.56 - - [16/Feb/2015 00:51:22] "GET / HTTP/1.1" 200 -
-2015-02-16T00:51:27.020899+00:00 heroku[router]: at=info method=GET path="/sharon" host=prezzy.herokuapp.com request_id=1f8d2181-19b0-4edd-9d4b-9a0aba751e9a fwd="70.25.6.99" dyno=web.1 connect=3ms service=3ms status=404 bytes=380
-2015-02-16T00:51:27.017591+00:00 app[web.1]: 10.127.161.56 - - [16/Feb/2015 00:51:27] "GET /sharon HTTP/1.1" 404 -
-2015-02-16T00:51:35.360755+00:00 heroku[api]: Release v15 created by rlsantos@uwaterloo.ca
-2015-02-16T00:51:35.360755+00:00 heroku[api]: Deploy 71852be by rlsantos@uwaterloo.ca
-2015-02-16T00:51:35.498190+00:00 heroku[web.1]: State changed from up to starting
-2015-02-16T00:51:38.478307+00:00 heroku[web.1]: Stopping all processes with SIGTERM
-2015-02-16T00:51:39.641282+00:00 heroku[web.1]: Starting process with command `python helloworld.py`
-2015-02-16T00:51:39.939713+00:00 heroku[web.1]: Process exited with status 143
-2015-02-16T00:51:41.719093+00:00 app[web.1]:  * Running on http://0.0.0.0:31413/ (Press CTRL+C to quit)
-2015-02-16T00:51:43.249227+00:00 heroku[web.1]: State changed from starting to up
-2015-02-16T00:51:52.132061+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=1bbe4cda-27c6-4bfb-b707-222a0a0e8e95 fwd="192.0.202.168" dyno=web.1 connect=1ms service=3ms status=200 bytes=166
-2015-02-16T00:51:52.124630+00:00 app[web.1]: 10.38.90.9 - - [16/Feb/2015 00:51:52] "GET / HTTP/1.1" 200 -
-2015-02-16T00:51:56.913238+00:00 heroku[router]: at=info method=GET path="/sharon" host=prezzy.herokuapp.com request_id=f1e7adc7-0a30-454a-b948-97321e8e6451 fwd="192.0.202.168" dyno=web.1 connect=2ms service=3ms status=200 bytes=176
-2015-02-16T00:51:56.905964+00:00 app[web.1]: 10.38.90.9 - - [16/Feb/2015 00:51:56] "GET /sharon HTTP/1.1" 200 -
-2015-02-16T00:52:27.791257+00:00 heroku[router]: at=info method=GET path="/sharon" host=prezzy.herokuapp.com request_id=f4a6efa1-d9db-4c94-8c56-dbeccceacff1 fwd="70.25.6.98" dyno=web.1 connect=1ms service=2ms status=200 bytes=176
-2015-02-16T00:52:27.790262+00:00 app[web.1]: 10.44.194.218 - - [16/Feb/2015 00:52:27] "GET /sharon HTTP/1.1" 200 -
-2015-02-16T01:00:21.592440+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=39745333-0468-46f2-bc6e-84976e35eb2e fwd="192.0.202.168" dyno=web.1 connect=16ms service=22ms status=200 bytes=166
-2015-02-16T01:00:21.571262+00:00 app[web.1]: 10.220.194.82 - - [16/Feb/2015 01:00:21] "GET / HTTP/1.1" 200 -
-2015-02-16T01:00:41.946585+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=bbde7c51-22b9-48cf-b31c-f04604d716ef fwd="173.252.88.184" dyno=web.1 connect=2ms service=3ms status=200 bytes=166
-2015-02-16T01:00:41.938570+00:00 app[web.1]: 10.68.151.164 - - [16/Feb/2015 01:00:41] "GET / HTTP/1.1" 200 -
-2015-02-16T01:00:43.837708+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=b70b52e6-6a38-4aab-a4cb-f80dfb68d8d4 fwd="173.252.81.112" dyno=web.1 connect=1ms service=2ms status=200 bytes=166
-2015-02-16T01:00:43.837654+00:00 app[web.1]: 10.167.23.213 - - [16/Feb/2015 01:00:43] "GET / HTTP/1.1" 200 -
-2015-02-16T01:00:51.983257+00:00 heroku[router]: at=info method=GET path="/sharon" host=prezzy.herokuapp.com request_id=f7b742df-0400-4638-a206-d0d075691684 fwd="173.252.114.116" dyno=web.1 connect=2ms service=3ms status=200 bytes=176
-2015-02-16T01:00:51.978344+00:00 app[web.1]: 10.10.139.239 - - [16/Feb/2015 01:00:51] "GET /sharon HTTP/1.1" 200 -
-2015-02-16T01:00:52.211244+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=prezzy.herokuapp.com request_id=33afa7ff-9015-43e9-a9ca-8213bd88105b fwd="173.252.114.118" dyno=web.1 connect=1ms service=19ms status=404 bytes=380
 2015-02-16T01:00:52.209412+00:00 app[web.1]: 10.87.122.33 - - [16/Feb/2015 01:00:52] "GET /favicon.ico HTTP/1.1" 404 -
 2015-02-16T01:02:34.176986+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=dd865814-e334-49b9-8479-26294b9aa03c fwd="70.54.64.169" dyno=web.1 connect=1ms service=2ms status=200 bytes=166
 2015-02-16T01:02:34.176874+00:00 app[web.1]: 10.167.23.213 - - [16/Feb/2015 01:02:34] "GET / HTTP/1.1" 200 -
@@ -99,3 +64,38 @@
 2015-02-16T03:25:52.838545+00:00 heroku[web.1]: Process exited with status 137
 2015-02-16T03:25:52.854576+00:00 heroku[web.1]: State changed from starting to crashed
 2015-02-16T03:25:54.735970+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=0652c757-9572-4596-b9a7-991152d48396 fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T03:29:37.169164+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=5bca50b9-5820-4247-a304-f8c84e11baea fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T03:30:16.621506+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=61516743-5b40-43bb-b22d-219f4dd7a716 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
+2015-02-16T03:30:17.074687+00:00 heroku[api]: Deploy 562bf0b by rlsantos@uwaterloo.ca
+2015-02-16T03:30:17.074687+00:00 heroku[api]: Release v18 created by rlsantos@uwaterloo.ca
+2015-02-16T03:30:17.337564+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-16T03:30:21.006891+00:00 heroku[web.1]: Starting process with command `python president/game.py`
+2015-02-16T03:30:23.013818+00:00 app[web.1]:  * Running on http://0.0.0.0:13061/ (Press CTRL+C to quit)
+2015-02-16T03:30:23.276376+00:00 heroku[web.1]: State changed from starting to up
+2015-02-16T03:31:09.192490+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=41c943ed-a623-4ae0-b21e-9aec677fb900 fwd="70.25.6.98" dyno=web.1 connect=1ms service=15ms status=200 bytes=268
+2015-02-16T03:31:09.190211+00:00 app[web.1]: 10.38.74.158 - - [16/Feb/2015 03:31:09] "GET / HTTP/1.1" 200 -
+2015-02-16T03:31:51.897027+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=bf78169b-a7a2-42ee-bef6-68e9dd120819 fwd="192.0.202.168" dyno=web.1 connect=1ms service=2ms status=200 bytes=268
+2015-02-16T03:31:51.903178+00:00 app[web.1]: 10.12.158.134 - - [16/Feb/2015 03:31:51] "GET / HTTP/1.1" 200 -
+2015-02-16T04:02:01.990126+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=e3d1d7e5-e72c-4370-b03b-bb50171fc314 fwd="192.0.202.168" dyno=web.1 connect=1ms service=2ms status=200 bytes=268
+2015-02-16T04:02:01.996065+00:00 app[web.1]: 10.228.28.20 - - [16/Feb/2015 04:02:01] "GET / HTTP/1.1" 200 -
+2015-02-16T04:39:21.555955+00:00 heroku[api]: Deploy 04b2dd9 by rlsantos@uwaterloo.ca
+2015-02-16T04:39:21.555955+00:00 heroku[api]: Release v19 created by rlsantos@uwaterloo.ca
+2015-02-16T04:39:22.449378+00:00 heroku[web.1]: State changed from up to starting
+2015-02-16T04:39:25.168269+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-02-16T04:39:26.722676+00:00 heroku[web.1]: Starting process with command `python president/game.py`
+2015-02-16T04:39:26.905993+00:00 heroku[web.1]: Process exited with status 143
+2015-02-16T04:39:28.710525+00:00 app[web.1]:   File "president/game.py", line 33
+2015-02-16T04:39:28.710547+00:00 app[web.1]:     socket = new EchoWebSocket();
+2015-02-16T04:39:28.716434+00:00 app[web.1]:                              ^
+2015-02-16T04:39:28.716483+00:00 app[web.1]: SyntaxError: invalid syntax
+2015-02-16T04:39:29.543065+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-16T04:39:29.543669+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-16T04:39:29.534777+00:00 heroku[web.1]: Process exited with status 1
+2015-02-16T04:39:33.835061+00:00 heroku[web.1]: Starting process with command `python president/game.py`
+2015-02-16T04:39:35.627497+00:00 app[web.1]:   File "president/game.py", line 33
+2015-02-16T04:39:35.627540+00:00 app[web.1]: SyntaxError: invalid syntax
+2015-02-16T04:39:35.627512+00:00 app[web.1]:     socket = new EchoWebSocket();
+2015-02-16T04:39:35.627515+00:00 app[web.1]:                              ^
+2015-02-16T04:39:36.319560+00:00 heroku[web.1]: Process exited with status 1
+2015-02-16T04:39:36.328211+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-16T04:41:45.172775+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=9f7f37bd-5331-438d-9dba-82cf6b9343d1 fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
