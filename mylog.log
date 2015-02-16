@@ -1,20 +1,3 @@
-2015-02-16T05:45:53.436635+00:00 app[web.1]:     from president import president
-2015-02-16T05:45:53.436637+00:00 app[web.1]: ImportError: cannot import name president
-2015-02-16T05:45:54.338152+00:00 heroku[web.1]: State changed from starting to crashed
-2015-02-16T05:45:54.321685+00:00 heroku[web.1]: Process exited with status 1
-2015-02-16T05:50:39.240837+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=20394f98-a92b-47b8-b733-2b405fa333b7 fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
-2015-02-16T05:50:40.308372+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=10e91943-6624-4714-bc55-e36feb747484 fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
-2015-02-16T05:52:23.535333+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=fdbda059-3c59-4e2e-871b-811b480e5b2a fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
-2015-02-16T05:53:10.737962+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=1dccd883-ffca-46cb-b65c-7ce6f8f2cee9 fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
-2015-02-16T05:53:11.773677+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=eb15b10d-ef41-4711-b555-886f41754cd6 fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
-2015-02-16T05:53:47.134502+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=7ab8b796-1f37-4e31-aa46-29467c4c338a fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
-2015-02-16T05:53:57.386398+00:00 heroku[api]: Deploy 97cb1c6 by rlsantos@uwaterloo.ca
-2015-02-16T05:53:57.386398+00:00 heroku[api]: Release v25 created by rlsantos@uwaterloo.ca
-2015-02-16T05:53:57.721187+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T05:53:57.662751+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T05:54:00.966374+00:00 heroku[web.1]: Starting process with command `python president/server.py`
-2015-02-16T05:54:02.381760+00:00 app[web.1]: Traceback (most recent call last):
-2015-02-16T05:54:02.381807+00:00 app[web.1]:     from president.websocket import WSHandler
 2015-02-16T05:54:02.381847+00:00 app[web.1]:     from president import president
 2015-02-16T05:54:02.381799+00:00 app[web.1]:   File "president/server.py", line 10, in <module>
 2015-02-16T05:54:02.381809+00:00 app[web.1]:   File "/app/president/__init__.py", line 14, in <module>
@@ -99,3 +82,20 @@
 2015-02-16T06:09:56.651186+00:00 heroku[web.1]: State changed from starting to crashed
 2015-02-16T06:09:57.368304+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=fb880bd0-d6b9-43b8-951b-b86686d03e8b fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
 2015-02-16T06:09:59.585266+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=5fca2728-cf5b-48b3-a76b-9cd79a9827d5 fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T06:12:01.010925+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=a2be9f32-5646-4311-98d5-09feb68438fa fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
+2015-02-16T06:12:02.376673+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=fa2fbc43-e8fb-4277-8272-072d75caddbc fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T06:15:26.789782+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=c035bfbb-bee2-42da-a46b-9325c594a139 fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
+2015-02-16T06:15:28.216869+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=94601c52-a584-4341-a969-649a6e9a3b59 fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
+2015-02-16T06:15:29.098705+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=3b36b1a6-6175-464b-a1f1-40bb5314924d fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T06:15:49.539961+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-16T06:15:53.919808+00:00 heroku[web.1]: Starting process with command `python president/server.py`
+2015-02-16T06:15:57.003586+00:00 heroku[api]: Deploy 4a46557 by rlsantos@uwaterloo.ca
+2015-02-16T06:15:57.003586+00:00 heroku[api]: Release v29 created by rlsantos@uwaterloo.ca
+2015-02-16T06:16:00.505738+00:00 heroku[web.1]: Starting process with command `python president/server.py ${PORT}`
+2015-02-16T06:16:42.252954+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-02-16T06:16:43.740955+00:00 heroku[web.1]: Process exited with status 143
+2015-02-16T06:17:01.023218+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2015-02-16T06:17:01.023358+00:00 heroku[web.1]: Stopping process with SIGKILL
+2015-02-16T06:17:01.837253+00:00 heroku[web.1]: Process exited with status 137
+2015-02-16T06:17:02.131276+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=84539def-c9cd-44b7-b03a-d72dc8f5f55c fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T06:17:01.844212+00:00 heroku[web.1]: State changed from starting to crashed
