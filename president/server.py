@@ -38,8 +38,9 @@ if __name__ == '__main__':
         (r'.*', FallbackHandler, dict(fallback=wsgi_app))
     ])
 
-    application.listen(5000)
-    IOLoop.instance().start()
-    
     port = int(os.environ.get('PORT', 5000))
+
+    application.listen(port)
+    IOLoop.instance().start()
+
     app.run(host='localhost', port=port)

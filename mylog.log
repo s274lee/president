@@ -1,27 +1,3 @@
-Your version of git is 1.9.4.. Which has serious security vulnerabilities.
-More information here: https://blog.heroku.com/archives/2014/12/23/update_your_git_clients_on_windows_and_os_x
-2015-02-16T06:15:28.216869+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=94601c52-a584-4341-a969-649a6e9a3b59 fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
-2015-02-16T06:15:29.098705+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=3b36b1a6-6175-464b-a1f1-40bb5314924d fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
-2015-02-16T06:15:49.539961+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T06:15:53.919808+00:00 heroku[web.1]: Starting process with command `python president/server.py`
-2015-02-16T06:15:57.003586+00:00 heroku[api]: Deploy 4a46557 by rlsantos@uwaterloo.ca
-2015-02-16T06:15:57.003586+00:00 heroku[api]: Release v29 created by rlsantos@uwaterloo.ca
-2015-02-16T06:16:00.505738+00:00 heroku[web.1]: Starting process with command `python president/server.py ${PORT}`
-2015-02-16T06:16:42.252954+00:00 heroku[web.1]: Stopping all processes with SIGTERM
-2015-02-16T06:16:43.740955+00:00 heroku[web.1]: Process exited with status 143
-2015-02-16T06:17:01.023218+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
-2015-02-16T06:17:01.023358+00:00 heroku[web.1]: Stopping process with SIGKILL
-2015-02-16T06:17:01.837253+00:00 heroku[web.1]: Process exited with status 137
-2015-02-16T06:17:02.131276+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=84539def-c9cd-44b7-b03a-d72dc8f5f55c fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
-2015-02-16T06:17:01.844212+00:00 heroku[web.1]: State changed from starting to crashed
-2015-02-16T06:22:13.600820+00:00 heroku[api]: Deploy 812ef91 by rlsantos@uwaterloo.ca
-2015-02-16T06:22:13.600820+00:00 heroku[api]: Release v30 created by rlsantos@uwaterloo.ca
-2015-02-16T06:22:13.802284+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T06:22:18.213479+00:00 heroku[web.1]: Starting process with command `python president/server.py -p 5000`
-2015-02-16T06:23:18.333777+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
-2015-02-16T06:23:18.333888+00:00 heroku[web.1]: Stopping process with SIGKILL
-2015-02-16T06:23:19.177800+00:00 heroku[web.1]: Process exited with status 137
-2015-02-16T06:23:19.193858+00:00 heroku[web.1]: State changed from starting to crashed
 2015-02-16T06:23:19.194921+00:00 heroku[web.1]: State changed from crashed to starting
 2015-02-16T06:23:23.890331+00:00 heroku[web.1]: Starting process with command `python president/server.py -p 5000`
 2015-02-16T06:24:23.963173+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
@@ -101,3 +77,25 @@ More information here: https://blog.heroku.com/archives/2014/12/23/update_your_g
 2015-02-16T21:30:55.592735+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=99df5f03-b548-4cae-8282-5142e8e8df91 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
 2015-02-16T21:32:56.956227+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=c8a56f6f-0abe-4db9-b4e1-7a03893df00a fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
 2015-02-16T21:32:57.935152+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=prezzy.herokuapp.com request_id=c40110ab-416f-4d88-aca9-9ba3c9b098b1 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
+2015-02-16T22:38:34.587337+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=19ac3f59-1172-4ede-94ed-010ed6e7635b fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
+2015-02-16T23:02:55.600066+00:00 heroku[api]: Deploy 8f5d3d1 by rlsantos@uwaterloo.ca
+2015-02-16T23:02:55.600066+00:00 heroku[api]: Release v32 created by rlsantos@uwaterloo.ca
+2015-02-16T23:02:55.737759+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-16T23:03:00.849105+00:00 heroku[web.1]: Starting process with command `python president/server.py -p 5000`
+2015-02-16T23:04:01.355063+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2015-02-16T23:04:01.355189+00:00 heroku[web.1]: Stopping process with SIGKILL
+2015-02-16T23:04:02.230243+00:00 heroku[web.1]: Process exited with status 137
+2015-02-16T23:04:02.247027+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-16T23:04:02.247655+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-16T23:04:06.606878+00:00 heroku[web.1]: Starting process with command `python president/server.py -p 5000`
+2015-02-16T23:05:07.187631+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2015-02-16T23:05:07.187631+00:00 heroku[web.1]: Stopping process with SIGKILL
+2015-02-16T23:05:07.999814+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-16T23:05:07.985511+00:00 heroku[web.1]: Process exited with status 137
+2015-02-16T23:23:46.023662+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=75f1b54f-7a61-44ec-9621-c366e3284061 fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T23:36:25.388218+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-16T23:36:29.320203+00:00 heroku[web.1]: Starting process with command `python president/server.py -p 5000`
+2015-02-16T23:37:29.854748+00:00 heroku[web.1]: Stopping process with SIGKILL
+2015-02-16T23:37:29.854748+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2015-02-16T23:37:30.640086+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-16T23:37:30.631178+00:00 heroku[web.1]: Process exited with status 137
