@@ -1,58 +1,3 @@
-2015-02-16T03:23:43.020003+00:00 heroku[api]: Deploy 0905c9c by rlsantos@uwaterloo.ca
-2015-02-16T03:23:43.020003+00:00 heroku[api]: Release v17 created by rlsantos@uwaterloo.ca
-2015-02-16T03:23:43.259490+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T03:23:46.547158+00:00 heroku[web.1]: Starting process with command `python president/game.py`
-2015-02-16T03:23:48.194605+00:00 app[web.1]:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2015-02-16T03:24:46.866695+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
-2015-02-16T03:24:46.866776+00:00 heroku[web.1]: Stopping process with SIGKILL
-2015-02-16T03:24:47.572098+00:00 heroku[web.1]: State changed from starting to crashed
-2015-02-16T03:24:47.573096+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T03:24:47.559350+00:00 heroku[web.1]: Process exited with status 137
-2015-02-16T03:24:51.629431+00:00 heroku[web.1]: Starting process with command `python president/game.py`
-2015-02-16T03:24:53.813568+00:00 app[web.1]:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2015-02-16T03:25:30.575187+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=prezzy.herokuapp.com request_id=c3e823d3-719a-40dd-be42-00ea489fb92b fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
-2015-02-16T03:25:52.042516+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
-2015-02-16T03:25:52.043868+00:00 heroku[web.1]: Stopping process with SIGKILL
-2015-02-16T03:25:52.838545+00:00 heroku[web.1]: Process exited with status 137
-2015-02-16T03:25:52.854576+00:00 heroku[web.1]: State changed from starting to crashed
-2015-02-16T03:25:54.735970+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=0652c757-9572-4596-b9a7-991152d48396 fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
-2015-02-16T03:29:37.169164+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=5bca50b9-5820-4247-a304-f8c84e11baea fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
-2015-02-16T03:30:16.621506+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=61516743-5b40-43bb-b22d-219f4dd7a716 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T03:30:17.074687+00:00 heroku[api]: Deploy 562bf0b by rlsantos@uwaterloo.ca
-2015-02-16T03:30:17.074687+00:00 heroku[api]: Release v18 created by rlsantos@uwaterloo.ca
-2015-02-16T03:30:17.337564+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T03:30:21.006891+00:00 heroku[web.1]: Starting process with command `python president/game.py`
-2015-02-16T03:30:23.013818+00:00 app[web.1]:  * Running on http://0.0.0.0:13061/ (Press CTRL+C to quit)
-2015-02-16T03:30:23.276376+00:00 heroku[web.1]: State changed from starting to up
-2015-02-16T03:31:09.192490+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=41c943ed-a623-4ae0-b21e-9aec677fb900 fwd="70.25.6.98" dyno=web.1 connect=1ms service=15ms status=200 bytes=268
-2015-02-16T03:31:09.190211+00:00 app[web.1]: 10.38.74.158 - - [16/Feb/2015 03:31:09] "GET / HTTP/1.1" 200 -
-2015-02-16T03:31:51.897027+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=bf78169b-a7a2-42ee-bef6-68e9dd120819 fwd="192.0.202.168" dyno=web.1 connect=1ms service=2ms status=200 bytes=268
-2015-02-16T03:31:51.903178+00:00 app[web.1]: 10.12.158.134 - - [16/Feb/2015 03:31:51] "GET / HTTP/1.1" 200 -
-2015-02-16T04:02:01.990126+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=e3d1d7e5-e72c-4370-b03b-bb50171fc314 fwd="192.0.202.168" dyno=web.1 connect=1ms service=2ms status=200 bytes=268
-2015-02-16T04:02:01.996065+00:00 app[web.1]: 10.228.28.20 - - [16/Feb/2015 04:02:01] "GET / HTTP/1.1" 200 -
-2015-02-16T04:39:21.555955+00:00 heroku[api]: Deploy 04b2dd9 by rlsantos@uwaterloo.ca
-2015-02-16T04:39:21.555955+00:00 heroku[api]: Release v19 created by rlsantos@uwaterloo.ca
-2015-02-16T04:39:22.449378+00:00 heroku[web.1]: State changed from up to starting
-2015-02-16T04:39:25.168269+00:00 heroku[web.1]: Stopping all processes with SIGTERM
-2015-02-16T04:39:26.722676+00:00 heroku[web.1]: Starting process with command `python president/game.py`
-2015-02-16T04:39:26.905993+00:00 heroku[web.1]: Process exited with status 143
-2015-02-16T04:39:28.710525+00:00 app[web.1]:   File "president/game.py", line 33
-2015-02-16T04:39:28.710547+00:00 app[web.1]:     socket = new EchoWebSocket();
-2015-02-16T04:39:28.716434+00:00 app[web.1]:                              ^
-2015-02-16T04:39:28.716483+00:00 app[web.1]: SyntaxError: invalid syntax
-2015-02-16T04:39:29.543065+00:00 heroku[web.1]: State changed from starting to crashed
-2015-02-16T04:39:29.543669+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T04:39:29.534777+00:00 heroku[web.1]: Process exited with status 1
-2015-02-16T04:39:33.835061+00:00 heroku[web.1]: Starting process with command `python president/game.py`
-2015-02-16T04:39:35.627497+00:00 app[web.1]:   File "president/game.py", line 33
-2015-02-16T04:39:35.627540+00:00 app[web.1]: SyntaxError: invalid syntax
-2015-02-16T04:39:35.627512+00:00 app[web.1]:     socket = new EchoWebSocket();
-2015-02-16T04:39:35.627515+00:00 app[web.1]:                              ^
-2015-02-16T04:39:36.319560+00:00 heroku[web.1]: Process exited with status 1
-2015-02-16T04:39:36.328211+00:00 heroku[web.1]: State changed from starting to crashed
-2015-02-16T04:41:45.172775+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=9f7f37bd-5331-438d-9dba-82cf6b9343d1 fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
-2015-02-16T04:44:16.919400+00:00 heroku[api]: Deploy f2777f0 by rlsantos@uwaterloo.ca
-2015-02-16T04:44:16.919400+00:00 heroku[api]: Release v20 created by rlsantos@uwaterloo.ca
 2015-02-16T04:44:17.485719+00:00 heroku[web.1]: State changed from crashed to starting
 2015-02-16T04:44:20.994738+00:00 heroku[web.1]: Starting process with command `python president/game.py`
 2015-02-16T04:44:22.600619+00:00 app[web.1]:                              ^
@@ -99,3 +44,58 @@
 2015-02-16T04:55:28.406544+00:00 heroku[web.1]: Process exited with status 1
 2015-02-16T04:55:28.421082+00:00 heroku[web.1]: State changed from starting to crashed
 2015-02-16T05:02:03.140427+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=0e0ea39f-142e-4c54-b14b-4e09ba61db16 fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
+2015-02-16T05:03:32.442009+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=c572f150-6b41-4c2a-b366-016632948359 fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T05:04:49.481067+00:00 heroku[api]: Release v22 created by rlsantos@uwaterloo.ca
+2015-02-16T05:04:49.481067+00:00 heroku[api]: Deploy c3f19e3 by rlsantos@uwaterloo.ca
+2015-02-16T05:04:49.560632+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-16T05:04:53.146168+00:00 heroku[web.1]: Starting process with command `python president/game.py`
+2015-02-16T05:04:55.052227+00:00 app[web.1]: Traceback (most recent call last):
+2015-02-16T05:04:55.052245+00:00 app[web.1]:   File "president/game.py", line 13, in <module>
+2015-02-16T05:04:55.052255+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/jinja2/loaders.py", line 214, in __init__
+2015-02-16T05:04:55.052252+00:00 app[web.1]:     env = Environment(loader=PackageLoader('game', 'templates'))
+2015-02-16T05:04:55.052320+00:00 app[web.1]:     provider = get_provider(package_name)
+2015-02-16T05:04:55.052344+00:00 app[web.1]:   File "build/bdist.linux-x86_64/egg/pkg_resources/__init__.py", line 396, in get_provider
+2015-02-16T05:04:55.052902+00:00 app[web.1]:     
+2015-02-16T05:04:55.052909+00:00 app[web.1]:   File "/app/president/game.py", line 16, in <module>
+2015-02-16T05:04:55.052945+00:00 app[web.1]:     class EchoWebSocket(tornado.websocket.WebSocketHandler):
+2015-02-16T05:04:55.052971+00:00 app[web.1]: NameError: name 'tornado' is not defined
+2015-02-16T05:04:55.758394+00:00 heroku[web.1]: Process exited with status 1
+2015-02-16T05:04:55.780260+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-16T05:05:06.843485+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=72b88581-3b4f-4b99-b231-402904ef45e3 fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T05:05:46.619551+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=2333c28c-7658-4141-977b-7d021945be62 fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
+2015-02-16T05:06:27.300456+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=113472d9-95c3-4e92-9abf-85d51e5633bb fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T05:06:45.420697+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=9e938d1a-77f0-4299-af5c-aec05d221951 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
+2015-02-16T05:07:48.365549+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=2178b7c7-e172-4f46-83f3-9cd6ef4f857a fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T05:07:54.827853+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=b0649044-1d79-4aa0-8ec5-5511fb1ec63a fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T05:09:36.071582+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=873d54d1-163a-40cc-b5b8-cc10f80b536c fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
+2015-02-16T05:09:36.950421+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=5846eb25-1687-49bc-b4f8-79a0a4c04c2d fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T05:09:37.785734+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=319dd8d4-7117-4b9d-8eb1-6324216b7e4d fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
+2015-02-16T05:10:18.670173+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-16T05:10:22.195006+00:00 heroku[web.1]: Starting process with command `python president/game.py`
+2015-02-16T05:10:23.800169+00:00 app[web.1]: Traceback (most recent call last):
+2015-02-16T05:10:23.800191+00:00 app[web.1]:   File "president/game.py", line 13, in <module>
+2015-02-16T05:10:23.800818+00:00 app[web.1]:     
+2015-02-16T05:10:23.800259+00:00 app[web.1]:     provider = get_provider(package_name)
+2015-02-16T05:10:23.800201+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/jinja2/loaders.py", line 214, in __init__
+2015-02-16T05:10:23.800841+00:00 app[web.1]:   File "/app/president/game.py", line 16, in <module>
+2015-02-16T05:10:23.800199+00:00 app[web.1]:     env = Environment(loader=PackageLoader('game', 'templates'))
+2015-02-16T05:10:23.800896+00:00 app[web.1]: NameError: name 'tornado' is not defined
+2015-02-16T05:10:23.800867+00:00 app[web.1]:     class EchoWebSocket(tornado.websocket.WebSocketHandler):
+2015-02-16T05:10:23.800281+00:00 app[web.1]:   File "build/bdist.linux-x86_64/egg/pkg_resources/__init__.py", line 396, in get_provider
+2015-02-16T05:10:24.504439+00:00 heroku[web.1]: Process exited with status 1
+2015-02-16T05:10:24.518482+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-16T05:10:24.519128+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-16T05:10:29.330060+00:00 heroku[web.1]: Starting process with command `python president/game.py`
+2015-02-16T05:10:31.282437+00:00 app[web.1]: Traceback (most recent call last):
+2015-02-16T05:10:31.282453+00:00 app[web.1]:   File "president/game.py", line 13, in <module>
+2015-02-16T05:10:31.282460+00:00 app[web.1]:     env = Environment(loader=PackageLoader('game', 'templates'))
+2015-02-16T05:10:31.282462+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/jinja2/loaders.py", line 214, in __init__
+2015-02-16T05:10:31.282516+00:00 app[web.1]:     provider = get_provider(package_name)
+2015-02-16T05:10:31.282534+00:00 app[web.1]:   File "build/bdist.linux-x86_64/egg/pkg_resources/__init__.py", line 396, in get_provider
+2015-02-16T05:10:31.282994+00:00 app[web.1]:     
+2015-02-16T05:10:31.283032+00:00 app[web.1]:     class EchoWebSocket(tornado.websocket.WebSocketHandler):
+2015-02-16T05:10:31.283008+00:00 app[web.1]:   File "/app/president/game.py", line 16, in <module>
+2015-02-16T05:10:31.283057+00:00 app[web.1]: NameError: name 'tornado' is not defined
+2015-02-16T05:10:32.042185+00:00 heroku[web.1]: Process exited with status 1
+2015-02-16T05:10:32.060043+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-16T05:10:34.249278+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=acdcedf7-2f08-4870-ae2f-760122d1244f fwd="70.25.6.98" dyno= connect= service= status=503 bytes=

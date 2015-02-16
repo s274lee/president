@@ -3,19 +3,14 @@ Created on Feb 15, 2015
 
 @author: all
 '''
+
+import os
 from flask import Flask
-from jinja2 import Environment, PackageLoader
 
 app = Flask(__name__)
-env = Environment(loader=PackageLoader('president', 'templates'))
+app.secret_key = os.urandom(24)
+app.debug = True
 
-@app.route('/')
-def hello_world():
-    template = env.get_template('mytemplate.html')
-    return template.render(var='var')
-
-if __name__ == '__main__':
-    app.run()
-
+import views
 
 

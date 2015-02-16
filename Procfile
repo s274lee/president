@@ -1,1 +1,1 @@
-web: python president/game.py
+web: python president/server.py
