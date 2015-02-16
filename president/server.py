@@ -24,12 +24,19 @@ if __name__ == '__main__':
     env = Environment(
     loader=FileSystemLoader('%s/templates/' % os.path.dirname(__file__))
     )
+    
+    port = int(os.environ.get('PORT', 5000))
 
-    #Home page routes
+    #Home page route
     @app.route('/')
     def hello_world():
         template = env.get_template('waiting_room.html')
         return template.render()
+    
+    #Check the websocket port
+    @app.route('/port')
+    def print_port():
+        print (port)
     
     wsgi_app = WSGIContainer(app)
     
@@ -37,8 +44,6 @@ if __name__ == '__main__':
         (r'/websocket', WSHandler),
         (r'.*', FallbackHandler, dict(fallback=wsgi_app))
     ])
-
-    port = int(os.environ.get('PORT', 5000))
 
     application.listen(port)
     IOLoop.instance().start()
