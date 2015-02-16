@@ -1,7 +1,7 @@
 from jinja2 import Environment, PackageLoader #For templating
 from president import app
 
-env = Environment(loader=PackageLoader('game', 'templates'))
+env = Environment(loader=PackageLoader('president', 'templates'))
 
 #Home page routes
 @app.route('/')

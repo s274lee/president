@@ -1,23 +1,3 @@
-2015-02-16T05:10:24.504439+00:00 heroku[web.1]: Process exited with status 1
-2015-02-16T05:10:24.518482+00:00 heroku[web.1]: State changed from starting to crashed
-2015-02-16T05:10:24.519128+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T05:10:29.330060+00:00 heroku[web.1]: Starting process with command `python president/game.py`
-2015-02-16T05:10:31.282437+00:00 app[web.1]: Traceback (most recent call last):
-2015-02-16T05:10:31.282453+00:00 app[web.1]:   File "president/game.py", line 13, in <module>
-2015-02-16T05:10:31.282460+00:00 app[web.1]:     env = Environment(loader=PackageLoader('game', 'templates'))
-2015-02-16T05:10:31.282462+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/jinja2/loaders.py", line 214, in __init__
-2015-02-16T05:10:31.282516+00:00 app[web.1]:     provider = get_provider(package_name)
-2015-02-16T05:10:31.282534+00:00 app[web.1]:   File "build/bdist.linux-x86_64/egg/pkg_resources/__init__.py", line 396, in get_provider
-2015-02-16T05:10:31.282994+00:00 app[web.1]:     
-2015-02-16T05:10:31.283032+00:00 app[web.1]:     class EchoWebSocket(tornado.websocket.WebSocketHandler):
-2015-02-16T05:10:31.283008+00:00 app[web.1]:   File "/app/president/game.py", line 16, in <module>
-2015-02-16T05:10:31.283057+00:00 app[web.1]: NameError: name 'tornado' is not defined
-2015-02-16T05:10:32.042185+00:00 heroku[web.1]: Process exited with status 1
-2015-02-16T05:10:32.060043+00:00 heroku[web.1]: State changed from starting to crashed
-2015-02-16T05:10:34.249278+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=acdcedf7-2f08-4870-ae2f-760122d1244f fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
-2015-02-16T05:14:30.326733+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=501f6fcd-e976-4770-9198-307773d956bc fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
-2015-02-16T05:36:51.786304+00:00 heroku[api]: Deploy a16553d by rlsantos@uwaterloo.ca
-2015-02-16T05:36:51.786304+00:00 heroku[api]: Release v23 created by rlsantos@uwaterloo.ca
 2015-02-16T05:36:51.916914+00:00 heroku[web.1]: State changed from crashed to starting
 2015-02-16T05:36:56.549636+00:00 heroku[web.1]: Starting process with command `python president/server.py`
 2015-02-16T05:36:58.663621+00:00 app[web.1]: Traceback (most recent call last):
@@ -99,3 +79,23 @@
 2015-02-16T05:54:08.377396+00:00 app[web.1]:   File "/app/president/views.py", line 2, in <module>
 2015-02-16T05:54:09.131922+00:00 heroku[web.1]: Process exited with status 1
 2015-02-16T05:54:09.144278+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-16T05:56:34.467019+00:00 heroku[api]: Release v26 created by rlsantos@uwaterloo.ca
+2015-02-16T05:56:34.467019+00:00 heroku[api]: Deploy 3884457 by rlsantos@uwaterloo.ca
+2015-02-16T05:56:34.851527+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-16T05:56:38.742103+00:00 heroku[web.1]: Starting process with command `python president/server.py`
+2015-02-16T05:56:40.729372+00:00 app[web.1]:   File "president/server.py", line 10, in <module>
+2015-02-16T05:56:40.729380+00:00 app[web.1]:     from president.websocket import WSHandler
+2015-02-16T05:56:40.729349+00:00 app[web.1]: Traceback (most recent call last):
+2015-02-16T05:56:40.729424+00:00 app[web.1]:   File "/app/president/views.py", line 4, in <module>
+2015-02-16T05:56:40.729452+00:00 app[web.1]:     env = Environment(loader=PackageLoader('game', 'templates'))
+2015-02-16T05:56:40.729474+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/jinja2/loaders.py", line 214, in __init__
+2015-02-16T05:56:40.729381+00:00 app[web.1]:   File "/app/president/__init__.py", line 14, in <module>
+2015-02-16T05:56:40.729403+00:00 app[web.1]:     import views
+2015-02-16T05:56:40.729543+00:00 app[web.1]:     provider = get_provider(package_name)
+2015-02-16T05:56:40.729581+00:00 app[web.1]:   File "build/bdist.linux-x86_64/egg/pkg_resources/__init__.py", line 396, in get_provider
+2015-02-16T05:56:40.730147+00:00 app[web.1]: ImportError: No module named game
+2015-02-16T05:56:40.730140+00:00 app[web.1]:     
+2015-02-16T05:56:41.505757+00:00 heroku[web.1]: Process exited with status 1
+2015-02-16T05:56:41.522833+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-16T05:58:49.590382+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=b777ed0a-b989-40eb-aec9-ab79b56d25e1 fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
+2015-02-16T05:58:51.262849+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=6b0a46a0-a43b-4c89-af5b-f124e857e851 fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
