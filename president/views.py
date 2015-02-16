@@ -7,4 +7,3 @@ env = Environment(loader=PackageLoader('president', 'templates'))
 @app.route('/')
 def hello_world():
     template = env.get_template('waiting_room.html')
-    return template.render(var='var')
