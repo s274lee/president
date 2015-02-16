@@ -1,15 +1,3 @@
-2015-02-16T01:00:52.209412+00:00 app[web.1]: 10.87.122.33 - - [16/Feb/2015 01:00:52] "GET /favicon.ico HTTP/1.1" 404 -
-2015-02-16T01:02:34.176986+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=dd865814-e334-49b9-8479-26294b9aa03c fwd="70.54.64.169" dyno=web.1 connect=1ms service=2ms status=200 bytes=166
-2015-02-16T01:02:34.176874+00:00 app[web.1]: 10.167.23.213 - - [16/Feb/2015 01:02:34] "GET / HTTP/1.1" 200 -
-2015-02-16T01:02:35.153714+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=prezzy.herokuapp.com request_id=1f31dcd0-84fa-4b6a-b509-d688afb1a0e5 fwd="70.54.64.169" dyno=web.1 connect=1ms service=4ms status=404 bytes=380
-2015-02-16T01:02:35.152526+00:00 app[web.1]: 10.167.23.213 - - [16/Feb/2015 01:02:35] "GET /favicon.ico HTTP/1.1" 404 -
-2015-02-16T01:02:55.770864+00:00 heroku[router]: at=info method=GET path="/sharon/" host=prezzy.herokuapp.com request_id=0aed3876-ea03-461f-8149-462deaba2f60 fwd="173.252.88.184" dyno=web.1 connect=3ms service=3ms status=404 bytes=380
-2015-02-16T01:02:55.763045+00:00 app[web.1]: 10.87.145.95 - - [16/Feb/2015 01:02:55] "GET /sharon/ HTTP/1.1" 404 -
-2015-02-16T01:02:56.311739+00:00 heroku[router]: at=info method=GET path="/sharon/" host=prezzy.herokuapp.com request_id=ad98af15-6834-4d27-ace0-59218eac3aaf fwd="192.0.202.168" dyno=web.1 connect=3ms service=3ms status=404 bytes=380
-2015-02-16T01:02:56.308494+00:00 app[web.1]: 10.87.142.213 - - [16/Feb/2015 01:02:56] "GET /sharon/ HTTP/1.1" 404 -
-2015-02-16T01:03:03.828948+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=ca52300e-1c11-45b7-91ee-cb44e569c903 fwd="192.0.202.168" dyno=web.1 connect=1ms service=2ms status=200 bytes=166
-2015-02-16T01:03:03.826189+00:00 app[web.1]: 10.87.142.213 - - [16/Feb/2015 01:03:03] "GET / HTTP/1.1" 200 -
-2015-02-16T01:03:08.852355+00:00 heroku[router]: at=info method=GET path="/sharon" host=prezzy.herokuapp.com request_id=a2e2b587-25bf-4a0b-bed4-a5040857a2f5 fwd="192.0.202.168" dyno=web.1 connect=1ms service=3ms status=200 bytes=176
 2015-02-16T01:03:08.849353+00:00 app[web.1]: 10.87.142.213 - - [16/Feb/2015 01:03:08] "GET /sharon HTTP/1.1" 200 -
 2015-02-16T02:04:44.872588+00:00 heroku[web.1]: Idling
 2015-02-16T02:04:44.874063+00:00 heroku[web.1]: State changed from up to down
@@ -99,3 +87,15 @@
 2015-02-16T04:39:36.319560+00:00 heroku[web.1]: Process exited with status 1
 2015-02-16T04:39:36.328211+00:00 heroku[web.1]: State changed from starting to crashed
 2015-02-16T04:41:45.172775+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=9f7f37bd-5331-438d-9dba-82cf6b9343d1 fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
+2015-02-16T04:44:16.919400+00:00 heroku[api]: Deploy f2777f0 by rlsantos@uwaterloo.ca
+2015-02-16T04:44:16.919400+00:00 heroku[api]: Release v20 created by rlsantos@uwaterloo.ca
+2015-02-16T04:44:17.485719+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-16T04:44:20.994738+00:00 heroku[web.1]: Starting process with command `python president/game.py`
+2015-02-16T04:44:22.600619+00:00 app[web.1]:                              ^
+2015-02-16T04:44:22.600586+00:00 app[web.1]:     socket = new EchoWebSocket()
+2015-02-16T04:44:22.600568+00:00 app[web.1]:   File "president/game.py", line 33
+2015-02-16T04:44:22.600637+00:00 app[web.1]: SyntaxError: invalid syntax
+2015-02-16T04:44:23.394944+00:00 heroku[web.1]: Process exited with status 1
+2015-02-16T04:44:23.411690+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-16T04:44:48.592827+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=41276611-29dc-49bb-b259-ea1c5c5bdf86 fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
+2015-02-16T04:44:51.088386+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=9f4006c7-85dc-46e9-842d-8b40e31eb7ff fwd="70.25.6.98" dyno= connect= service= status=503 bytes=

@@ -30,7 +30,7 @@ def hello_world():
 
 @app.route('/websocket')
 def test_websocket():
-    socket = new EchoWebSocket()
+    socket = EchoWebSocket()
     return socket
 
 #Run the web application on port 5000
