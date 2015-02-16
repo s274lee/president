@@ -1,1 +1,1 @@
-web: python president/__init__.py
+web: python president/game.py
