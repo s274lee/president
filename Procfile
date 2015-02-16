@@ -1,1 +1,1 @@
-web: python helloworld.py
+web: python president/__init__.py
