@@ -7,8 +7,8 @@ Created on Feb 16, 2015
 from tornado.wsgi import WSGIContainer
 from tornado.web import Application, FallbackHandler
 from tornado.ioloop import IOLoop
-from app.websocket import WSHandler
-from app import app
+from president.websocket import WSHandler
+from president import president
 
 if __name__ == '__main__':
     wsgi_app = WSGIContainer(app)
