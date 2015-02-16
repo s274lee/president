@@ -8,7 +8,7 @@ from tornado.wsgi import WSGIContainer
 from tornado.web import Application, FallbackHandler
 from tornado.ioloop import IOLoop
 from president.websocket import WSHandler
-from president import president
+from president import app
 
 if __name__ == '__main__':
     wsgi_app = WSGIContainer(app)
