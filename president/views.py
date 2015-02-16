@@ -1,5 +1,5 @@
 from jinja2 import Environment, PackageLoader #For templating
-from president import president
+from president import app
 
 env = Environment(loader=PackageLoader('game', 'templates'))
 
