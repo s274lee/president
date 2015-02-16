@@ -7,12 +7,32 @@ import os
 from tornado.wsgi import WSGIContainer
 from tornado.web import Application, FallbackHandler
 from tornado.ioloop import IOLoop
-from president.websocket import WSHandler
-from president import app
+from websocket import WSHandler
+from jinja2 import Environment, FileSystemLoader #PackageLoader #For templating
+
+#import views
+#from president import app
 
 if __name__ == '__main__':
-    wsgi_app = WSGIContainer(app)
+    
+    from flask import Flask
+    
+    app = Flask(__name__)
+    app.secret_key = os.urandom(24)
+    app.debug = True
+    
+    env = Environment(
+    loader=FileSystemLoader('%s/templates/' % os.path.dirname(__file__))
+    )
 
+    #Home page routes
+    @app.route('/')
+    def hello_world():
+        template = env.get_template('waiting_room.html')
+        return template.render()
+    
+    wsgi_app = WSGIContainer(app)
+    
     application = Application([
         (r'/websocket', WSHandler),
         (r'.*', FallbackHandler, dict(fallback=wsgi_app))
@@ -22,4 +42,4 @@ if __name__ == '__main__':
     IOLoop.instance().start()
     
     port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='localhost', port=port)
