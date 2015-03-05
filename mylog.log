@@ -1,101 +1,16 @@
-2015-02-16T19:04:44.127677+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=1d93130f-2410-45bd-9201-661c4fda04d7 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T19:04:45.879343+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=prezzy.herokuapp.com request_id=86ef0c78-7ad1-442c-bfac-9b7d2ab22c01 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T19:07:40.055343+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=419327ce-960c-431d-b024-9ae8cc4e1d92 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T19:11:28.900832+00:00 heroku[api]: Scale to web=1 by s274lee@uwaterloo.ca
-2015-02-16T20:00:16.328110+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=1fe7964c-d764-46e7-a416-480f9a6a5e19 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T20:00:43.543013+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=85d20680-9bc8-4407-81d9-8dd6501165e0 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T20:31:43.266695+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=81c4baca-096d-444c-bd35-9245c64ac4ad fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T20:31:44.330894+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=prezzy.herokuapp.com request_id=20498b9b-2cf5-4eb7-8177-909734d51982 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T20:34:35.018556+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=prezzy.herokuapp.com request_id=5c0d7f16-9756-4544-ad52-57279fce33a3 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T20:34:33.852038+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=c59967c6-68da-4bbe-9bac-d4a1565b9455 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T20:35:31.153742+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=ebee7e24-6900-495f-9c98-8ddb13e76570 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T20:48:24.157885+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=335b6309-9987-41c3-97b4-cd605e6a6971 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T20:48:28.221721+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=b024c227-9708-4ffa-814b-a75708df2f4e fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T20:52:55.341704+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=1bee0392-51f0-4295-ade3-fc819a016da8 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T21:22:38.381367+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=d5bacef2-d8b2-416c-81a5-c10fa740e3c7 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T21:23:09.738857+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=d4e05fa1-1e90-4840-9185-78251082d130 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T21:25:10.430463+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=8a877049-a08e-4e80-b21a-197ca59ff756 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T21:27:52.904049+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=c1cec8fc-9081-435d-83a5-1728cd66135e fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T21:30:55.592735+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=99df5f03-b548-4cae-8282-5142e8e8df91 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T21:32:56.956227+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=c8a56f6f-0abe-4db9-b4e1-7a03893df00a fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T21:32:57.935152+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=prezzy.herokuapp.com request_id=c40110ab-416f-4d88-aca9-9ba3c9b098b1 fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T22:38:34.587337+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=19ac3f59-1172-4ede-94ed-010ed6e7635b fwd="192.0.202.168" dyno= connect= service= status=503 bytes=
-2015-02-16T23:02:55.600066+00:00 heroku[api]: Deploy 8f5d3d1 by rlsantos@uwaterloo.ca
-2015-02-16T23:02:55.600066+00:00 heroku[api]: Release v32 created by rlsantos@uwaterloo.ca
-2015-02-16T23:02:55.737759+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T23:03:00.849105+00:00 heroku[web.1]: Starting process with command `python president/server.py -p 5000`
-2015-02-16T23:04:01.355063+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
-2015-02-16T23:04:01.355189+00:00 heroku[web.1]: Stopping process with SIGKILL
-2015-02-16T23:04:02.230243+00:00 heroku[web.1]: Process exited with status 137
-2015-02-16T23:04:02.247027+00:00 heroku[web.1]: State changed from starting to crashed
-2015-02-16T23:04:02.247655+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T23:04:06.606878+00:00 heroku[web.1]: Starting process with command `python president/server.py -p 5000`
-2015-02-16T23:05:07.187631+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
-2015-02-16T23:05:07.187631+00:00 heroku[web.1]: Stopping process with SIGKILL
-2015-02-16T23:05:07.999814+00:00 heroku[web.1]: State changed from starting to crashed
-2015-02-16T23:05:07.985511+00:00 heroku[web.1]: Process exited with status 137
-2015-02-16T23:23:46.023662+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=prezzy.herokuapp.com request_id=75f1b54f-7a61-44ec-9621-c366e3284061 fwd="70.25.6.99" dyno= connect= service= status=503 bytes=
-2015-02-16T23:36:25.388218+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T23:36:29.320203+00:00 heroku[web.1]: Starting process with command `python president/server.py -p 5000`
-2015-02-16T23:37:29.854748+00:00 heroku[web.1]: Stopping process with SIGKILL
-2015-02-16T23:37:29.854748+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
-2015-02-16T23:37:30.640086+00:00 heroku[web.1]: State changed from starting to crashed
-2015-02-16T23:37:30.631178+00:00 heroku[web.1]: Process exited with status 137
-2015-02-16T23:52:23.353975+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T23:52:28.333234+00:00 heroku[web.1]: Starting process with command `python president/server.py -p 5000`
-2015-02-16T23:53:28.457946+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
-2015-02-16T23:53:28.457946+00:00 heroku[web.1]: Stopping process with SIGKILL
-2015-02-16T23:53:29.268682+00:00 heroku[web.1]: Process exited with status 137
-2015-02-16T23:53:29.281066+00:00 heroku[web.1]: State changed from starting to crashed
-2015-02-16T23:53:29.282729+00:00 heroku[web.1]: State changed from crashed to starting
-2015-02-16T23:53:33.613494+00:00 heroku[web.1]: Starting process with command `python president/server.py -p 5000`
-2015-02-16T23:53:37.611926+00:00 heroku[api]: Deploy c526a3a by rlsantos@uwaterloo.ca
-2015-02-16T23:53:37.611926+00:00 heroku[api]: Release v33 created by rlsantos@uwaterloo.ca
-2015-02-16T23:53:41.333928+00:00 heroku[web.1]: Starting process with command `python president/server.py`
-2015-02-16T23:53:43.661781+00:00 heroku[web.1]: State changed from starting to up
-2015-02-16T23:53:45.856562+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=72d423ce-8183-487b-a878-6bd8c3925fb9 fwd="70.25.6.99" dyno=web.1 connect=1ms service=9ms status=200 bytes=1323
-2015-02-16T23:53:47.065660+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=prezzy.herokuapp.com request_id=96cae0b4-c94b-4911-a1d3-5860684b8144 fwd="70.25.6.98" dyno= connect= service= status=503 bytes=
-2015-02-16T23:54:34.012714+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
-2015-02-16T23:54:34.012837+00:00 heroku[web.1]: Stopping process with SIGKILL
-2015-02-16T23:54:34.877673+00:00 heroku[web.1]: Process exited with status 137
-2015-02-16T23:59:28.471946+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=a15960b6-23d3-4759-acd7-3b5b7e45bbc3 fwd="70.25.6.99" dyno=web.1 connect=79ms service=64ms status=200 bytes=1323
-2015-02-16T23:59:37.757009+00:00 heroku[router]: at=info method=GET path="/port" host=prezzy.herokuapp.com request_id=2d8ccd89-e4ae-4446-9aad-833ea9d99848 fwd="70.25.6.99" dyno=web.1 connect=84ms service=53ms status=404 bytes=334
-2015-02-16T23:59:37.721858+00:00 app[web.1]: WARNING:tornado.access:404 GET /port (10.220.194.82) 19.34ms
-2015-02-16T23:59:49.502472+00:00 heroku[web.1]: State changed from up to starting
-2015-02-16T23:59:52.661116+00:00 heroku[web.1]: Stopping all processes with SIGTERM
-2015-02-16T23:59:53.646667+00:00 heroku[web.1]: Starting process with command `python president/server.py`
-2015-02-16T23:59:54.204654+00:00 heroku[web.1]: Process exited with status 143
-2015-02-16T23:59:56.980522+00:00 heroku[web.1]: State changed from starting to up
-2015-02-17T00:00:27.010907+00:00 heroku[api]: Release v34 created by rlsantos@uwaterloo.ca
-2015-02-17T00:00:27.010907+00:00 heroku[api]: Deploy 0f0b178 by rlsantos@uwaterloo.ca
-2015-02-17T00:00:27.281145+00:00 heroku[web.1]: State changed from up to starting
-2015-02-17T00:00:29.660453+00:00 heroku[web.1]: Stopping all processes with SIGTERM
-2015-02-17T00:00:31.190186+00:00 heroku[web.1]: Process exited with status 143
-2015-02-17T00:00:31.286730+00:00 heroku[web.1]: Starting process with command `python president/server.py`
-2015-02-17T00:00:33.938931+00:00 heroku[web.1]: State changed from starting to up
-2015-02-17T00:02:45.440615+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=3c9d9a13-d2dd-4a60-bf04-6f87c9000c72 fwd="70.25.6.98" dyno=web.1 connect=3ms service=11ms status=200 bytes=1323
-2015-02-17T00:02:49.875772+00:00 heroku[router]: at=info method=GET path="/port" host=prezzy.herokuapp.com request_id=e6b24ac8-8dd6-457d-bee9-4620f6a72c30 fwd="70.25.6.98" dyno=web.1 connect=2ms service=7ms status=500 bytes=257
-2015-02-17T00:02:49.862802+00:00 app[web.1]: 29084
-2015-02-17T00:02:49.865905+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/tornado/web.py", line 1309, in _execute
-2015-02-17T00:02:49.865903+00:00 app[web.1]: Traceback (most recent call last):
-2015-02-17T00:02:49.865907+00:00 app[web.1]:     result = self.prepare()
-2015-02-17T00:02:49.865883+00:00 app[web.1]: ERROR:tornado.application:Uncaught exception GET /port (10.151.81.194)
-2015-02-17T00:02:49.865910+00:00 app[web.1]:     self.fallback(self.request)
-2015-02-17T00:02:49.865920+00:00 app[web.1]:     response = self.make_response(self.handle_exception(e))
-2015-02-17T00:02:49.865918+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
-2015-02-17T00:02:49.865915+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
-2015-02-17T00:02:49.865901+00:00 app[web.1]: HTTPServerRequest(protocol='http', host='prezzy.herokuapp.com', method='GET', uri='/port', version='HTTP/1.1', remote_ip='10.151.81.194', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36', 'X-Forwarded-Port': '80', 'X-Forwarded-Proto': 'http', 'Connect-Time': '2', 'Accept-Encoding': 'gzip, deflate, gzip', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Total-Route-Time': '1', 'Host': 'prezzy.herokuapp.com', 'Connection': 'close', 'X-Request-Id': 'e6b24ac8-8dd6-457d-bee9-4620f6a72c30', 'Via': '1.1 vegur', 'X-Forwarded-For': '70.25.6.98', 'Accept-Language': 'en-US,en;q=0.8,ja;q=0.6,pt;q=0.4', 'X-Request-Start': '1424131369862'})
-2015-02-17T00:02:49.865930+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/flask/app.py", line 1566, in make_response
-2015-02-17T00:02:49.865916+00:00 app[web.1]:     return self.wsgi_app(environ, start_response)
-2015-02-17T00:02:49.866528+00:00 app[web.1]: ERROR:tornado.access:500 GET /port (10.151.81.194) 4.69ms
-2015-02-17T00:02:49.865926+00:00 app[web.1]:     response = self.full_dispatch_request()
-2015-02-17T00:02:49.865908+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/tornado/web.py", line 2498, in prepare
-2015-02-17T00:02:49.865925+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
-2015-02-17T00:02:49.865912+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/tornado/wsgi.py", line 280, in __call__
-2015-02-17T00:02:49.865933+00:00 app[web.1]: ValueError: View function did not return a response
-2015-02-17T00:02:49.865913+00:00 app[web.1]:     WSGIContainer.environ(request), start_response)
-2015-02-17T00:02:49.865921+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
-2015-02-17T00:02:49.865927+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/flask/app.py", line 1478, in full_dispatch_request
-2015-02-17T00:02:49.865932+00:00 app[web.1]:     raise ValueError('View function did not return a response')
-2015-02-17T00:02:49.865923+00:00 app[web.1]:     reraise(exc_type, exc_value, tb)
-2015-02-17T00:02:49.865929+00:00 app[web.1]:     response = self.make_response(rv)
+2015-03-05T00:59:13.452262+00:00 heroku[api]: Set PORT config vars by rlsantos@uwaterloo.ca
+2015-03-05T00:59:13.452262+00:00 heroku[api]: Release v35 created by rlsantos@uwaterloo.ca
+2015-03-05T01:01:43.441298+00:00 heroku[web.1]: Unidling
+2015-03-05T01:01:43.441608+00:00 heroku[web.1]: State changed from down to starting
+2015-03-05T01:01:47.672932+00:00 heroku[web.1]: Starting process with command `python president/server.py`
+2015-03-05T01:01:50.529952+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=1c02fd5b-d519-4ad8-a8a6-58c8be7b4875 fwd="70.25.6.99" dyno=web.1 connect=21ms service=14ms status=200 bytes=1323
+2015-03-05T01:01:50.295090+00:00 heroku[web.1]: State changed from starting to up
+2015-03-05T01:01:51.171740+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=prezzy.herokuapp.com request_id=b9c01d93-21be-4508-b98c-a33c5eedf90c fwd="70.25.6.99" dyno=web.1 connect=1ms service=39ms status=404 bytes=334
+2015-03-05T01:01:51.171703+00:00 app[web.1]: WARNING:tornado.access:404 GET /favicon.ico (10.87.145.247) 36.84ms
+2015-03-05T01:02:13.964515+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=be8af70c-3874-491f-b5e8-ffc42a8ed8f3 fwd="70.25.6.99" dyno=web.1 connect=1ms service=9ms status=200 bytes=1323
+2015-03-05T01:02:45.784369+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=8d182cec-8a38-4d2e-b2d9-b6346cbebede fwd="70.25.6.98" dyno=web.1 connect=1ms service=3ms status=200 bytes=1323
+2015-03-05T01:02:46.444835+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=prezzy.herokuapp.com request_id=985810e3-7fba-496e-a2cb-1ec932417768 fwd="70.25.6.98" dyno=web.1 connect=19ms service=26ms status=404 bytes=334
+2015-03-05T01:02:46.425401+00:00 app[web.1]: WARNING:tornado.access:404 GET /favicon.ico (10.42.121.33) 3.70ms
+2015-03-05T02:00:56.891591+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=3d6a48af-cd2b-48d4-ac52-0dae19945635 fwd="70.25.6.99" dyno=web.1 connect=6ms service=4ms status=200 bytes=1323
+2015-03-05T02:01:52.543731+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=f8c7c8b2-9d54-4769-a6a5-45a767b0797f fwd="70.25.6.99" dyno=web.1 connect=1ms service=6ms status=200 bytes=1323
+2015-03-05T02:05:21.137550+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=31058ddf-b0ae-4af9-9d51-41df5219b180 fwd="70.25.6.99" dyno=web.1 connect=8ms service=33ms status=200 bytes=1323
