@@ -25,7 +25,7 @@ if __name__ == '__main__':
     loader=FileSystemLoader('%s/templates/' % os.path.dirname(__file__))
     )
     
-    port = int(os.environ.get('PORT', 5000))
+    #port = int(os.environ.get('PORT', 5000))
 
     #Home page route
     @app.route('/')
@@ -45,7 +45,7 @@ if __name__ == '__main__':
         (r'.*', FallbackHandler, dict(fallback=wsgi_app))
     ])
 
-    application.listen(port)
+    application.listen(5000)
     IOLoop.instance().start()
 
-    app.run(host='localhost', port=port)
+    app.run(host='localhost', port=5005)
