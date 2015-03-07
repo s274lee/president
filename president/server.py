@@ -33,11 +33,6 @@ if __name__ == '__main__':
         (r'/websocket', WSHandler),
         (r'.*', FallbackHandler, dict(fallback=wsgi_app))
     ])
-
-    application.listen(port)
-    IOLoop.instance().start()
-
-    app.run(host='prezzy.herokuapp.com', port=port)
     
     #Home page route
     @app.route('/')
@@ -50,3 +45,8 @@ if __name__ == '__main__':
     def print_port():
         template = env.get_template('mytemplate.html')
         return template.render(port=port)
+
+    application.listen(port)
+    IOLoop.instance().start()
+
+    app.run(host='prezzy.herokuapp.com', port=port)
