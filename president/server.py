@@ -26,7 +26,7 @@ if __name__ == '__main__':
     loader=FileSystemLoader('%s/templates/' % os.path.dirname(__file__))
     )
     
-    #port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 5000))
 
     #Home page route
     @app.route('/')
@@ -36,9 +36,10 @@ if __name__ == '__main__':
     
 	
     #Check the websocket port
-    @app.route('/port')
+    @app.route('/print/port')
     def print_port():
-        print (5000)
+        template = env.get_template('mytemplate.html')
+        return template.render(port=port)
     
     wsgi_app = WSGIContainer(app)
     
@@ -47,7 +48,7 @@ if __name__ == '__main__':
         (r'.*', FallbackHandler, dict(fallback=wsgi_app))
     ])
 
-    application.listen(5000)
+    application.listen(port)
     IOLoop.instance().start()
 
-    app.run(host='prezzy.herokuapp.com', port=5000)
+    app.run(host='prezzy.herokuapp.com', port=port)
