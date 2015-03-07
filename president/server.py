@@ -18,7 +18,6 @@ if __name__ == '__main__':
     from flask import Flask
     
     app = Flask(__name__)
-    sockets = Sockets(app)
 	
     app.secret_key = os.urandom(24)
     app.debug = True
@@ -48,7 +47,7 @@ if __name__ == '__main__':
         (r'.*', FallbackHandler, dict(fallback=wsgi_app))
     ])
 
-    application.listen(6543)
+    application.listen(5000)
     IOLoop.instance().start()
 
     app.run(host='prezzy.herokuapp.com', port=5000)
