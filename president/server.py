@@ -23,10 +23,9 @@ if __name__ == '__main__':
     app.debug = True
     
     env = Environment(
-    loader=FileSystemLoader('%s/templates/' % os.path.dirname(__file__))
-    )
+    loader=FileSystemLoader('%s/templates/' % os.path.dirname(__file__)))
     
-    port = int(os.environ.get('PORT', 5000)
+    port = int(os.environ.get('PORT', 5000))
     
     wsgi_app = WSGIContainer(app)
     
