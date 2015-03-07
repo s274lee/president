@@ -34,6 +34,10 @@ if __name__ == '__main__':
         (r'.*', FallbackHandler, dict(fallback=wsgi_app))
     ])
     
+    # write the port variable to the file myport.txt
+    f = open('myport.txt', 'w')
+    f.write(port)
+
     #Home page route
     @app.route('/')
     def hello_world():
