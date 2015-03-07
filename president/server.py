@@ -8,6 +8,7 @@ from tornado.wsgi import WSGIContainer
 from tornado.web import Application, FallbackHandler
 from tornado.ioloop import IOLoop
 from websocket import WSHandler
+from flask_sockets import Sockets
 from jinja2 import Environment, FileSystemLoader #PackageLoader #For templating
 
 #import views
@@ -25,7 +26,7 @@ if __name__ == '__main__':
     loader=FileSystemLoader('%s/templates/' % os.path.dirname(__file__))
     )
     
-    #port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 5000))
 
     #Home page route
     @app.route('/')
@@ -33,6 +34,7 @@ if __name__ == '__main__':
         template = env.get_template('waiting_room.html')
         return template.render()
     
+	
     #Check the websocket port
     @app.route('/port')
     def print_port():
