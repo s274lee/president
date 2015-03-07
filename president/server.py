@@ -39,6 +39,10 @@ if __name__ == '__main__':
 
     app.run(host='prezzy.herokuapp.com', port=port)
     
+    # write the port variable to the file myport.txt
+    f = open('myport.txt', 'w')
+    f.write(port)
+
     #Home page route
     @app.route('/')
     def hello_world():
