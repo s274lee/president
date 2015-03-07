@@ -33,14 +33,13 @@ if __name__ == '__main__':
         (r'/websocket', WSHandler),
         (r'.*', FallbackHandler, dict(fallback=wsgi_app))
     ])
-    
-    # write the port variable to the file myport.txt
-    f = open('myport.txt', 'w')
-    f.write(str(port))
 
     #Home page route
     @app.route('/')
     def hello_world():
+        # write the port variable to the file myport.txt
+        f = open('myport.txt', 'w')
+        f.write(str(port))
         template = env.get_template('waiting_room.html')
         return template.render(port=port)
     
