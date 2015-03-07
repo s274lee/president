@@ -11,7 +11,7 @@
      <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 
       <hr></hr>
-      
+
      This is the port variable passed in by jinja: {{port}}
 
 
@@ -92,6 +92,7 @@
 
   // Here we run a very simple test of the Graph API after login is
   // successful.  See statusChangeCallback() for when this call is made.
+
   function testAPI() {
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
@@ -100,15 +101,7 @@
         'Thanks for logging in, ' + response.name + '!';
     });
   }
-</script>
 
-<script type="text/javascript">
-document.getElementById('login-btn').onclick = function() {
-  FB.login(function(response) {
-    Log.info('FB.login response', response);
-  });
-  return false;
-}
 </script>
 
 <div class="fb-login-button" data-max-rows="1" data-size="medium" data-auto-logout-link="false"></div>
