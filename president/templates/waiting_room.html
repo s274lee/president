@@ -12,7 +12,7 @@
     <script>
         $(document).ready(function(){
             if ("WebSocket" in window) {
-                ws = new WebSocket("ws://" + document.domain + "6543/websocket");
+                ws = new WebSocket("ws://" + document.domain + ":6543/websocket");
                 ws.onmessage = function (msg) {
                     var message = JSON.parse(msg.data);
                     $("p#log").html(message.output);
