@@ -32,7 +32,7 @@ if __name__ == '__main__':
     @app.route('/')
     def hello_world():
         template = env.get_template('waiting_room.html')
-        return template.render()
+        return template.render(port=port)
     
 	
     #Check the websocket port
