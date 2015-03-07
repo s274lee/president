@@ -19,6 +19,8 @@ if __name__ == '__main__':
     from flask import Flask
     
     app = Flask(__name__)
+	sockets = Sockets(app)
+	
     app.secret_key = os.urandom(24)
     app.debug = True
     

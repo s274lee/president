@@ -7,6 +7,8 @@ Werkzeug==0.10.1
 anyjson==0.3.3
 certifi==14.05.14
 itsdangerous==0.24
+gevent==0.13.8
+gevent-websocket==0.3.6
 repoze.lru==0.6
 router==0.1
 tornado==4.0.2
