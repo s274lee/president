@@ -48,4 +48,4 @@ if __name__ == '__main__':
     application.listen(6543)
     IOLoop.instance().start()
 
-    app.run(host='localhost', port=5000)
+    app.run(host='prezzy.herokuapp.com', port=5000)
