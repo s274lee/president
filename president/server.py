@@ -18,7 +18,7 @@ if __name__ == '__main__':
     from flask import Flask
     
     app = Flask(__name__)
-	
+
     app.secret_key = os.urandom(24)
     app.debug = True
     
@@ -26,20 +26,7 @@ if __name__ == '__main__':
     loader=FileSystemLoader('%s/templates/' % os.path.dirname(__file__))
     )
     
-    port = int(os.environ.get('PORT', 5000))
-
-    #Home page route
-    @app.route('/')
-    def hello_world():
-        template = env.get_template('waiting_room.html')
-        return template.render(port=port)
-    
-	
-    #Check the websocket port
-    @app.route('/print/port')
-    def print_port():
-        template = env.get_template('mytemplate.html')
-        return template.render(port=port)
+    port = int(os.environ.get('PORT', 5000)
     
     wsgi_app = WSGIContainer(app)
     
@@ -52,3 +39,15 @@ if __name__ == '__main__':
     IOLoop.instance().start()
 
     app.run(host='prezzy.herokuapp.com', port=port)
+    
+    #Home page route
+    @app.route('/')
+    def hello_world():
+        template = env.get_template('waiting_room.html')
+        return template.render(port=port)
+    
+    #Check the websocket port
+    @app.route('/print/port')
+    def print_port():
+        template = env.get_template('mytemplate.html')
+        return template.render(port=port)
