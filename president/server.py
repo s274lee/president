@@ -36,7 +36,7 @@ if __name__ == '__main__':
     
     # write the port variable to the file myport.txt
     f = open('myport.txt', 'w')
-    f.write(port)
+    f.write(str(port))
 
     #Home page route
     @app.route('/')
