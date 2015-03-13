@@ -23,7 +23,7 @@ if __name__ == '__main__':
     app.debug = True
     
     env = Environment(
-    loader=FileSystemLoader('%s/templates/' % os.path.dirname(__file__)))
+    loader = FileSystemLoader('%s/templates/' % os.path.dirname(__file__)))
     
     port = int(os.environ.get('PORT', 5000))
     
@@ -33,10 +33,6 @@ if __name__ == '__main__':
         (r'/websocket', WSHandler),
         (r'.*', FallbackHandler, dict(fallback=wsgi_app))
     ])
-    
-    # write the port variable to the file myport.txt
-    f = open('myport.txt', 'w')
-    f.write(port)
 
     #Home page route
     @app.route('/')
