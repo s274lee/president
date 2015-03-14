@@ -1,0 +1,16 @@
+2015-03-05T00:59:13.452262+00:00 heroku[api]: Set PORT config vars by rlsantos@uwaterloo.ca
+2015-03-05T00:59:13.452262+00:00 heroku[api]: Release v35 created by rlsantos@uwaterloo.ca
+2015-03-05T01:01:43.441298+00:00 heroku[web.1]: Unidling
+2015-03-05T01:01:43.441608+00:00 heroku[web.1]: State changed from down to starting
+2015-03-05T01:01:47.672932+00:00 heroku[web.1]: Starting process with command `python president/server.py`
+2015-03-05T01:01:50.529952+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=1c02fd5b-d519-4ad8-a8a6-58c8be7b4875 fwd="70.25.6.99" dyno=web.1 connect=21ms service=14ms status=200 bytes=1323
+2015-03-05T01:01:50.295090+00:00 heroku[web.1]: State changed from starting to up
+2015-03-05T01:01:51.171740+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=prezzy.herokuapp.com request_id=b9c01d93-21be-4508-b98c-a33c5eedf90c fwd="70.25.6.99" dyno=web.1 connect=1ms service=39ms status=404 bytes=334
+2015-03-05T01:01:51.171703+00:00 app[web.1]: WARNING:tornado.access:404 GET /favicon.ico (10.87.145.247) 36.84ms
+2015-03-05T01:02:13.964515+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=be8af70c-3874-491f-b5e8-ffc42a8ed8f3 fwd="70.25.6.99" dyno=web.1 connect=1ms service=9ms status=200 bytes=1323
+2015-03-05T01:02:45.784369+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=8d182cec-8a38-4d2e-b2d9-b6346cbebede fwd="70.25.6.98" dyno=web.1 connect=1ms service=3ms status=200 bytes=1323
+2015-03-05T01:02:46.444835+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=prezzy.herokuapp.com request_id=985810e3-7fba-496e-a2cb-1ec932417768 fwd="70.25.6.98" dyno=web.1 connect=19ms service=26ms status=404 bytes=334
+2015-03-05T01:02:46.425401+00:00 app[web.1]: WARNING:tornado.access:404 GET /favicon.ico (10.42.121.33) 3.70ms
+2015-03-05T02:00:56.891591+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=3d6a48af-cd2b-48d4-ac52-0dae19945635 fwd="70.25.6.99" dyno=web.1 connect=6ms service=4ms status=200 bytes=1323
+2015-03-05T02:01:52.543731+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=f8c7c8b2-9d54-4769-a6a5-45a767b0797f fwd="70.25.6.99" dyno=web.1 connect=1ms service=6ms status=200 bytes=1323
+2015-03-05T02:05:21.137550+00:00 heroku[router]: at=info method=GET path="/" host=prezzy.herokuapp.com request_id=31058ddf-b0ae-4af9-9d51-41df5219b180 fwd="70.25.6.99" dyno=web.1 connect=8ms service=33ms status=200 bytes=1323
